@@ -1,18 +1,23 @@
+import buckets from "../assets/projects/Buckets.png";
+import hukumunmul from "../assets/projects/HukumUnmul.png";
+import littpages from "../assets/projects/Littpages.png";
+import dkriuk from "../assets/projects/Dkriuk.png";
+
 const projects = [
 {
     title: "Buckets",
     type: "Android",
     tech: "Flutter",
     description: "Mobile app that tracks your income & expanses with ease",
-    image: "../src/assets/projects/Buckets.png",
-    link: "https://github.com/LaluIman/Buckets",
+    image: buckets,
+    link: "https://github.com/LaluIman/Buckets"
 },
 {
     title: "HukumUnmul",
     type: "Android",
     tech: "Flutter",
     description: "Legal consultations app for East Kalimantan users needing legal assistance.",
-    image: "../src/assets/projects/HukumUnmul.png",
+    image: hukumunmul,
     link: "#",
 
 },
@@ -21,7 +26,7 @@ const projects = [
     type: "Website",
     tech: "Tailwind CSS",
     description:"Catalog website showcasing thrift streetwear to make your fit litt!",
-    image: "../src/assets/projects/Littpages.png",
+    image: littpages,
     link: "https://littpages.shop/",
 
 },
@@ -30,7 +35,7 @@ const projects = [
     type: "Website",
     tech: "Tailwind CSS",
     description: "Fried Chicken Heaven Crunchy and Tempting Tasteful!",
-    image: "../src/assets/projects/Dkriuk.png",
+    image: dkriuk,
     link: "https://dkriuksatriabahari.com/",
 
 },

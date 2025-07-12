@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import instagram from '../assets/instagram.png';
+import linkedin from '../assets/Linkedin.png';
+import github from '../assets/Github.png';
 
 function Footer() {
     const textRef = useRef();
@@ -46,13 +48,13 @@ function Footer() {
 
                 <div className="footer-socials" ref={socialsRef}>
                     <a href="https://www.instagram.com/lalui.man/" target="_blank" rel="noreferrer">
-                        <img src="../src/assets/instagram.png" alt="instagram" />
+                        <img src={instagram} alt="instagram" />
                     </a>
                     <a href="https://www.linkedin.com/in/lalu-iman-abdullah/" target="_blank" rel="noreferrer">
-                        <img src="../src/assets/Linkedin.png" alt="linkedin" />
+                        <img src={linkedin} alt="linkedin" />
                     </a>
                     <a href="https://github.com/LaluIman" target="_blank" rel="noreferrer">
-                        <img src="../src/assets/Github.png" alt="github" />
+                        <img src={github} alt="github" />
                     </a>
                 </div>
             </div>

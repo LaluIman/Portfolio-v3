@@ -223,6 +223,7 @@
   font-size: 0.9rem;
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .see-more-button:hover {

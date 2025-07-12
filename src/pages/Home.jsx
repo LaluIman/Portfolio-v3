@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import projects from '../model/selected-projects';
 import { animateHero } from '../animations/homeAnimation';
 import gsap from "gsap";
+import chevron from '../assets/chevron-down.png'
 
 const Home = () => {
     const homeRef = useRef(null);
@@ -23,7 +24,7 @@ const Home = () => {
                     Code Beautiful Experiences With <br /> Flawless Functionality
                 </h1>
                 <p className="scroll-down">
-                    Scroll down <span><img className='chevron-down' src='../src/assets/chevron-down.png' alt="Down" /></span>
+                    Scroll down <span><img className='chevron-down' src={chevron} alt="Down" /></span>
                 </p>
             </section>
 
@@ -43,7 +44,7 @@ const Home = () => {
                 </div>
 
                 <div className="see-more-wrapper">
-                    <button className="see-more-button">See more!</button>
+                    <a href="/projects" className="see-more-button">See more!</a>
                 </div>
             </section>
         </div>
