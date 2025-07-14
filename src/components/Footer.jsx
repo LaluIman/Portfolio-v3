@@ -42,7 +42,7 @@ function Footer() {
                     <p className="footer-subtitle">Like what you see?</p>
                     <h2 className="footer-title">Let’s work together!</h2>
                     <a href="mailto:laluiman468@gmail.com" className="footer-button">
-                        Chat with me
+                        Let's talk
                     </a>
                 </div>
 
