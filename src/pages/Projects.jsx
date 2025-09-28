@@ -17,7 +17,7 @@ const Projects = () => {
         <section className="projects-gallery" ref={projectRef}>
             {projects.map((project, index) => (
                 <div className="project-tile" key={index}>
-                    <img src={project.image} alt={`Project ${index}`} className="project-img" />
+                    <img loading='lazy' src={project.image} alt={`Project ${index}`} className="project-img" />
                     <a target='_blank' href={project.link} className="project-overlay-button">See details</a>
                 </div>
             ))}

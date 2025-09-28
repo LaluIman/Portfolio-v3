@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="projects-grid">
                     {projects.map((project, index) => (
                         <div className="project-card" key={index}>
-                            <img src={project.image} alt={project.title} className="project-image" />
+                            <img loading='lazy' src={project.image} alt={project.title} className="project-image" />
                             <p className="project-meta">
                                 {project.title} &nbsp;•&nbsp; {project.type} &nbsp; {project.tech}
                             </p>
