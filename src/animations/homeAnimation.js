@@ -39,7 +39,7 @@ export const animateHero = () => {
         markers: false,
       },
       opacity: 0,
-      y: 40,
+      y: 50,
       duration: 0.5,
       delay: index * 0.1,
       ease: "power2.out",

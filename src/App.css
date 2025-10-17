@@ -300,7 +300,9 @@
 .footer-socials a {
   background-color: #333;
   color: white;
-  padding: 0.50rem 1rem;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
   border-radius: 12px;
   font-size: 1.5rem;
   transition: 0.3s;
@@ -416,7 +418,9 @@ hr {
 
   .footer-socials a {
     font-size: 1.2rem;
-    padding: 0.4rem 0.9rem;
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
   }
 
   .footer-copyright {
